@@ -5,7 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        
+
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.2'
@@ -19,7 +19,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        
+
     }
 }
 
@@ -29,14 +29,12 @@ task clean(type: Delete) {
 
 
 //定义版本号
-ext{
+ext {
     compileSdkVersion = 30
-    buildToolsVersion  = '30.0.0'
+    buildToolsVersion = '30.0.0'
     minSdkVersion = 19
     targetSdkVersion = 30
     versionCode = 1
     versionName = "1.0.1"
     androidXVersion = "1.0.0"
 }
-
-

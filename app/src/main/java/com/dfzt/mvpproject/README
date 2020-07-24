@@ -1,0 +1,8 @@
+TODO MVP 是 model view presenter
+   model 处理业务逻辑层
+   view Activity + xml
+   presenter 是调用model层获取网络数据 然后回调给View层
+
+   model层 和 View层是没有关系的 他们之间通过presenter来进行交互
+   model层请求获取到数据之后就回调给presenter然后
+   presenter 通过view接口通知Activity去刷新UI
